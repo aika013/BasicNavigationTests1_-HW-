@@ -1,7 +1,7 @@
 package com.cbt.utilities;
 
 public class StringUtility {
-    public static String verifyEquals(String actual, String expected) {
+    public static String verifyEquals(String expected, String actual) {
         String result = "";
         actual = actual.toLowerCase();
         expected = expected.toLowerCase();
